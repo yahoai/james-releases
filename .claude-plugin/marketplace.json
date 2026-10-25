@@ -1,0 +1,18 @@
+{
+  "name": "james",
+  "owner": {
+    "name": "yahoai",
+    "url": "https://github.com/yahoai"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for James",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "james-routines",
+      "source": "./plugins/james-routines",
+      "description": "Manage a repo's .workflow/routines/ folder (James routines): set up, add, tune and lint routine files, and keep James Jobs in sync"
+    }
+  ]
+}

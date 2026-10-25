@@ -11,3 +11,16 @@ This repository hosts the desktop app builds. Download the latest version from *
 - [Claude Code](https://docs.anthropic.com/claude-code) CLI installed and logged in
 
 Builds are signed with a Developer ID and notarized by Apple.
+
+## Claude Code plugins
+
+This repository is also a Claude Code plugin marketplace (`plugins/`).
+
+```bash
+claude plugin marketplace add yahoai/james-releases
+claude plugin install james-routines@james
+```
+
+| Plugin | What it does |
+|---|---|
+| `james-routines` | Manages a repo's `.workflow/routines/` folder — routine files that James runs on a schedule |

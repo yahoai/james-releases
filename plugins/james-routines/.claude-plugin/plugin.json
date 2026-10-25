@@ -1,0 +1,10 @@
+{
+  "name": "james-routines",
+  "version": "0.1.0",
+  "description": "Manage a repo's .workflow/routines/ folder (James routines): set up, add, tune and lint routine files, and keep James Jobs in sync",
+  "author": {
+    "name": "yahoai",
+    "url": "https://github.com/yahoai"
+  },
+  "repository": "https://github.com/yahoai/james-releases"
+}
