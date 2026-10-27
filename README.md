@@ -11,6 +11,8 @@
 
 <p align="center">
   <a href="https://github.com/yahoai/james-releases/releases/latest"><strong>Download for macOS</strong></a>
+  &nbsp;·&nbsp;
+  <a href="docs/index.md"><strong>Help</strong></a>
 </p>
 
 <p align="center">
@@ -39,7 +41,7 @@ Terminals, your dev server, and git live right next to the conversation. Start y
 
 ### Take it with you
 
-Check in on a long task from your phone or another computer. Your sessions keep running while you're away.
+Check in on a long task from your phone or another computer. Your sessions keep running while you're away. [Set it up with Tailscale →](docs/mobile.md)
 
 <p align="center">
   <img src="assets/screenshot-mobile.png" width="280" alt="A James session on a phone">
@@ -67,6 +69,17 @@ James updates itself automatically.
 
 **Requirements:** macOS 11 or later on Apple Silicon, [Node.js](https://nodejs.org), and the [Claude Code](https://docs.anthropic.com/claude-code) CLI.
 Builds are signed and notarized by Apple.
+
+## Guides
+
+- [Getting Started](docs/getting-started.md)
+- [Sessions & Chat](docs/sessions.md) — split view, permission modes, goals, handoff
+- [Todos](docs/todos.md) — your inbox of things Claude needs from you
+- [Jobs & Runs](docs/jobs.md) — prompts that run on a schedule
+- [Vault](docs/vault.md) — a knowledge base shared by every session
+- [Work Items](docs/workflow.md) — feature and bug specs Claude keeps up to date
+- [What Claude Can Do in James](docs/claude-tools.md) — the extra tools Claude gets in every session
+- [Remote & Mobile](docs/mobile.md) — use James from your phone or another Mac with Tailscale
 
 ## Plugins
 
