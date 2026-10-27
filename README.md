@@ -25,27 +25,36 @@ Claude Code is powerful, but it lives in one terminal at a time. James gives it 
 
 ## What you get
 
-**Work on everything at once**
+### Work on everything at once
+
 Run sessions across all your projects side by side. Split the screen, compare, and switch with a click.
 
-**Stay in control**
+### Stay in control
+
 Approve tools before they run, review every change as a clear diff, and undo an edit when it isn't what you wanted.
 
-**Your whole workbench in one place**
+### Your whole workbench in one place
+
 Terminals, your dev server, and git live right next to the conversation. Start your app with one click and open it straight from James.
 
-<img src="assets/screenshot-mobile.png" width="240" align="right" alt="A James session on a phone">
+### Take it with you
 
-**Take it with you**
 Check in on a long task from your phone or another computer. Your sessions keep running while you're away.
 
-**Know where your usage goes**
+<p align="center">
+  <img src="assets/screenshot-mobile.png" width="280" alt="A James session on a phone">
+</p>
+
+### Know where your usage goes
+
 See your 5-hour and weekly limits at a glance, plus which sessions are using them.
 
-**Let it work while you sleep**
+### Let it work while you sleep
+
 Schedule routines that run on their own and report back when they're done.
 
-**Make it yours**
+### Make it yours
+
 Add plugins, MCP servers, skills and agents from Settings — no config files to edit.
 
 ## Get started
