@@ -13,6 +13,10 @@
   <a href="https://github.com/yahoai/james-releases/releases/latest"><strong>Download for macOS</strong></a>
 </p>
 
+<p align="center">
+  <img src="assets/screenshot-desktop.png" alt="Two Claude Code sessions side by side in James, one showing a code diff">
+</p>
+
 ---
 
 ## Why James
@@ -29,6 +33,8 @@ Approve tools before they run, review every change as a clear diff, and undo an 
 
 **Your whole workbench in one place**
 Terminals, your dev server, and git live right next to the conversation. Start your app with one click and open it straight from James.
+
+<img src="assets/screenshot-mobile.png" width="240" align="right" alt="A James session on a phone">
 
 **Take it with you**
 Check in on a long task from your phone or another computer. Your sessions keep running while you're away.
