@@ -11,9 +11,9 @@ The **5h** and **7d** chips in the header show how much of your Claude plan's 5-
 
 Click them (or ☰ menu → **Account & Usage**) for the full picture:
 
-- **Account** — sign-in method, email, organization and plan
-- **Usage** — 5-hour, weekly, and per-model weekly limits, plus extra usage
-- **What's contributing to your limits usage?** — for today or this week: how much of your usage came from long contexts or missed the prompt cache, and which agents, skills, plugins and MCP servers used the most
+- **Account**: sign-in method, email, organization and plan
+- **Usage**: 5-hour, weekly, and per-model weekly limits, plus extra usage
+- **What's contributing to your limits usage?**: for today or this week, how much of your usage came from long contexts or missed the prompt cache, and which agents, skills, plugins and MCP servers used the most
 
 The contribution view is an estimate from sessions on this Mac. It doesn't include other devices or claude.ai.
 
@@ -21,9 +21,9 @@ The contribution view is an estimate from sessions on this Mac. It doesn't inclu
 
 ☰ menu → **Usage Analytics** shows token use and estimated cost from your local Claude Code history:
 
-- **Daily** — the last 30 days. Expand a day to see it by project.
-- **Projects** — all-time totals per project, with session count and last activity.
-- **Models** — totals per model.
+- **Daily**: the last 30 days. Expand a day to see it by project.
+- **Projects**: all-time totals per project, with session count and last activity.
+- **Models**: totals per model.
 
 The menu item also shows your cost for the last 7 days.
 
@@ -31,7 +31,7 @@ The menu item also shows your cost for the last 7 days.
 
 The ring in each session's header shows how full Claude's context window is: green, then amber above 50%, red above 80%. Hover or tap it for a breakdown, and click **Compact conversation** to summarize the conversation and free up space.
 
-When a session is getting long, you can also move to a fresh one without losing track — see [Continue in a new session](./sessions.md#continue-in-a-new-session).
+When a session is getting long, you can also move to a fresh one without losing track. See [Continue in a new session](./sessions.md#continue-in-a-new-session).
 
 ## Jobs
 

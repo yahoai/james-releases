@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Your personal butler for Claude Code.</strong><br>
-  Every project, every session, one window — on your Mac, in your browser, or on your phone.
+  Every project, every session, one window. On your Mac, in your browser, or on your phone.
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 ## Why James
 
-Claude Code is powerful, but it lives in one terminal at a time. James gives it a home: open as many sessions as you like, see exactly what Claude is doing, and pick up right where you left off — from any device.
+Claude Code is powerful, but it lives in one terminal at a time. James gives it a home: open as many sessions as you like, see exactly what Claude is doing, and pick up right where you left off, from any device.
 
 ## What you get
 
@@ -57,7 +57,7 @@ Schedule routines that run on their own and report back when they're done.
 
 ### Make it yours
 
-Add plugins, MCP servers, skills and agents from Settings — no config files to edit.
+Add plugins, MCP servers, skills and agents from Settings, with no config files to edit.
 
 ## Get started
 
@@ -73,15 +73,15 @@ Builds are signed and notarized by Apple.
 ## Guides
 
 - [Getting Started](docs/getting-started.md)
-- [Sessions & Chat](docs/sessions.md) — split view, permission modes, goals, handoff
+- [Sessions & Chat](docs/sessions.md): split view, permission modes, goals, handoff
 - [Projects & Git](docs/projects.md) · [Terminals & Launches](docs/terminals.md)
-- [Todos](docs/todos.md) — your inbox of things Claude needs from you
-- [Jobs & Runs](docs/jobs.md) — prompts that run on a schedule
-- [Vault](docs/vault.md) — a knowledge base shared by every session
-- [Work Items](docs/workflow.md) — feature and bug specs Claude keeps up to date
-- [What Claude Can Do in James](docs/claude-tools.md) — the extra tools Claude gets in every session
+- [Todos](docs/todos.md): your inbox of things Claude needs from you
+- [Jobs & Runs](docs/jobs.md): prompts that run on a schedule
+- [Vault](docs/vault.md): a knowledge base shared by every session
+- [Work Items](docs/workflow.md): feature and bug specs Claude keeps up to date
+- [What Claude Can Do in James](docs/claude-tools.md): the extra tools Claude gets in every session
 - [Plugins & Extensions](docs/plugins.md) · [Usage](docs/usage.md)
-- [Remote & Mobile](docs/mobile.md) — use James from your phone or another Mac with Tailscale
+- [Remote & Mobile](docs/mobile.md): use James from your phone or another Mac with Tailscale
 - [Troubleshooting](docs/troubleshooting.md)
 
 ## Plugins

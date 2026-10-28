@@ -11,7 +11,7 @@ A session is one Claude Code conversation in one project. You can run as many as
 
 Press **⌘K** (or click **New session** at the top of a pane) and pick a project. Recent projects come first; you can search, or pick **No project (Scratch)** for a throwaway folder that's deleted with the session.
 
-If you have James on more than one Mac, the **Machine** picker lets you start the session on another Mac — see [Remote & Mobile](./mobile.md#use-another-mac-peers).
+If you have James on more than one Mac, the **Machine** picker lets you start the session on another Mac. See [Remote & Mobile](./mobile.md#use-another-mac-peers).
 
 To pick up an older Claude Code conversation in this project, use the session ⋮ menu → **Resume Past Session**.
 
@@ -29,16 +29,16 @@ Right-click a tab and choose **Hide (keep running)** to get it out of the way wi
 
 Under the message box:
 
-- **Permission mode** — how much Claude may do without asking. **Shift+Tab** cycles through them.
-  - **Default** — prompts for risky actions
-  - **Accept** — auto-approves file edits
-  - **Plan** — read-only; Claude produces a plan instead of changing things
-  - **Don't Ask** — no prompts; anything not pre-approved is denied
-  - **Smart Auto** — an AI reviewer approves or denies for you
-  - **Bypass All** — skips every check (asks you to confirm first)
-- **Preset** (e.g. **Full**) — which skills, MCP servers and agents the session loads. Slimmer presets cost fewer tokens per turn.
-- **Effort** — how hard Claude thinks: Low, Medium, High (default), XHigh.
-- **Model** — switch models at any time.
+- **Permission mode**: how much Claude may do without asking. **Shift+Tab** cycles through them.
+  - **Default**: prompts for risky actions
+  - **Accept**: auto-approves file edits
+  - **Plan**: read-only; Claude produces a plan instead of changing things
+  - **Don't Ask**: no prompts; anything not pre-approved is denied
+  - **Smart Auto**: an AI reviewer approves or denies for you
+  - **Bypass All**: skips every check (asks you to confirm first)
+- **Preset** (e.g. **Full**): which skills, MCP servers and agents the session loads. Slimmer presets cost fewer tokens per turn.
+- **Effort**: how hard Claude thinks (Low, Medium, High by default, or XHigh).
+- **Model**: switch models at any time.
 
 On a phone these are grouped under the **Mode** button.
 
@@ -61,8 +61,8 @@ For bigger tasks, Claude keeps a goal list pinned above the message box: **Goals
 
 Long sessions fill up Claude's context. Click **Continue** on the goals strip (it turns amber once context is 70% full) to move to a fresh session without losing track:
 
-- **Agent writes the handoff** — Claude summarizes context, decisions, key files and the next step.
-- **Quick handoff** — carries over the goal list and progress log as they are.
+- **Agent writes the handoff**: Claude summarizes context, decisions, key files and the next step.
+- **Quick handoff**: carries over the goal list and progress log as they are.
 
 Tick **Close this session and continue in its tab** to replace the current one.
 

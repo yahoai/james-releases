@@ -22,11 +22,11 @@ Each item is a folder (for example `features/active/FEAT-012-dark-mode/`) with a
 
 Open it from the session ⋮ menu → **Features & Docs**, or click the active-item count next to a project in the sidebar.
 
-- **Overview** — what needs attention, what's in progress, what's up next, and current plans.
-- **Items** — everything, grouped by Active, Pending review, Backlog and Archive. Open one to see its spec, progress and files, or click **Continue** to pick it up in a session.
-- **Docs** — plans, release notes, `docs/`, steering docs and Markdown files at the project root.
+- **Overview**: what needs attention, what's in progress, what's up next, and current plans.
+- **Items**: everything, grouped by Active, Pending review, Backlog and Archive. Open one to see its spec, progress and files, or click **Continue** to pick it up in a session.
+- **Docs**: plans, release notes, `docs/`, steering docs and Markdown files at the project root.
 
-James flags items that need tidying — no criteria, stale for 14 days, duplicate ids, all criteria done but still active — and **Tidy up work items** sends Claude a request to fix them.
+James flags items that need tidying (no criteria, stale for 14 days, duplicate ids, all criteria done but still active), and **Tidy up work items** sends Claude a request to fix them.
 
 ## Working with Claude
 

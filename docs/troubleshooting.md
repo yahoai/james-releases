@@ -7,7 +7,7 @@ order: 13
 
 ## "Claude Code is required"
 
-James runs your sessions with the Claude Code CLI, which you install separately. The dialog shows the install command — copy it into Terminal:
+James runs your sessions with the Claude Code CLI, which you install separately. The dialog shows the install command. Copy it into Terminal:
 
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash
@@ -19,7 +19,7 @@ If James says **Claude Code update recommended**, click **Update**.
 
 ## James won't start
 
-The menu bar (tray) icon has **Restart Server** — try that first. If another program is using port 31010, quit it and restart James.
+The menu bar (tray) icon has **Restart Server**. Try that first. If another program is using port 31010, quit it and restart James.
 
 If James says it's already running, look for its icon in the menu bar, or quit it from there and open it again.
 
@@ -35,7 +35,7 @@ Only one device controls a session at a time. Click **Take control here** to con
 
 ## A launch says "starting" forever
 
-James marks a launch as running once it prints a local URL (like `http://localhost:3000`). If your command never prints one, it stays "starting" — it is still running. Use **Show logs** to check.
+James marks a launch as running once it prints a local URL (like `http://localhost:3000`). If your command never prints one, it stays "starting" even though it's running. Use **Show logs** to check.
 
 ## Updates
 

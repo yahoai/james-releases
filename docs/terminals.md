@@ -7,13 +7,13 @@ order: 4
 
 ## Terminals
 
-Press **⌘T** to open a terminal in the current project. Terminals live in the bottom bar — **⌘J** shows or hides it. Each terminal belongs to a project and keeps running when you switch to another project.
+Press **⌘T** to open a terminal in the current project. Terminals live in the bottom bar, which **⌘J** shows or hides. Each terminal belongs to a project and keeps running when you switch to another project.
 
 Claude can read the output of your open terminals. It only types into one when you ask, and always asks for approval first.
 
 ## Launches
 
-A launch is a long-running process for your project — a dev server, an API, Storybook.
+A launch is a long-running process for your project, such as a dev server, an API or Storybook.
 
 Click **Launch…** (in the project menu or the **Launches** tab of the bottom bar) and pick:
 

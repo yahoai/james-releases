@@ -30,7 +30,7 @@ Notes link to each other with `[[wiki links]]`. Every note has a permanent id, s
 
 In James you change notes by asking Claude: open a note, click **Ask AI**, and say what to change. (You can also edit the files directly in any editor.)
 
-Claude never deletes notes — it archives them. Every change is versioned, so nothing is lost.
+Claude never deletes notes. It archives them instead. Every change is versioned, so nothing is lost.
 
 ## How Claude uses it
 
@@ -42,6 +42,6 @@ From any session, Claude can save, search, read, update and move notes:
 >
 > "Add today's findings to my notes on the payment bug."
 
-When Claude saves research material, it can also link it to **concept pages** — one page per idea, under `references/concepts/` — so related sources gather in one place.
+When Claude saves research material, it can also link it to **concept pages** (one page per idea, under `references/concepts/`) so related sources gather in one place.
 
 [Jobs](./jobs.md) can save each run's result to the Vault, and [Todos](./todos.md) can attach notes.

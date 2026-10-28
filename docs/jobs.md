@@ -5,7 +5,7 @@ order: 6
 
 # Jobs & Runs
 
-A **job** is a prompt that James runs on a schedule — "every weekday at 9am, summarize yesterday's commits", "every Sunday, check for dependency updates". Each time it runs, that's a **run**: a new session that works on its own and reports back.
+A **job** is a prompt that James runs on a schedule, like "every weekday at 9am, summarize yesterday's commits", "every Sunday, check for dependency updates". Each time it runs, that's a **run**: a new session that works on its own and reports back.
 
 Open it from the **Jobs** icon in the sidebar, or **More → Jobs** on mobile. James must be running for jobs to run.
 
@@ -17,21 +17,21 @@ The easiest way is **Create with AI**: pick a project and describe what you want
 
 To fill in the form yourself, use **⋯ → Create manually…**:
 
-- **Name** and **Project** — the job runs in that project's folder. With no project, it runs in your Vault folder.
-- **Prompt** — the first message of each run. Slash commands work.
+- **Name** and **Project**: the job runs in that project's folder. With no project, it runs in your Vault folder.
+- **Prompt**: the first message of each run. Slash commands work.
 - **Schedule**
-  - **Repeat** — hourly, daily, weekdays, weekly or monthly, at a time you choose
-  - **Once** — a single date and time
-  - **Cron** — a 5-field cron expression in any time zone
+  - **Repeat**: hourly, daily, weekdays, weekly or monthly, at a time you choose
+  - **Once**: a single date and time
+  - **Cron**: a 5-field cron expression in any time zone
 
   The next three run times are shown so you can check it.
 - **Output**
-  - **Save the result to Vault** — a new note each run, or append to one note
+  - **Save the result to Vault**: a new note each run, or append to one note
   - **Let it create todos for me**
   - **Create a todo when the run fails**
-- **Model**, **Effort**, and **Limits** — max turns (default 100) and max cost (default $5) per run.
+- **Model**, **Effort**, and **Limits**: max turns (default 100) and max cost (default $5) per run.
 - **When the agent needs approval**
-  - **Wait and notify me** — the run pauses and shows up in Home → Needs you
+  - **Wait and notify me**: the run pauses and shows up in Home → Needs you
   - **Auto-accept file edits**
   - **Allow everything**
 

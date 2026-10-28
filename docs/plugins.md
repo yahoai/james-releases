@@ -5,15 +5,15 @@ order: 10
 
 # Plugins & Extensions
 
-Everything that extends Claude — plugins, MCP servers, skills, commands, agents and hooks — is in **Settings → Extensions**. No config files to edit.
+Everything that extends Claude (plugins, MCP servers, skills, commands, agents and hooks) is in **Settings → Extensions**. No config files to edit.
 
 ## Plugins
 
 The **Plugins** tab has three parts:
 
-- **James plugins** — plugins made for James, from [yahoai/james-releases](https://github.com/yahoai/james-releases). **Install**, **Update**, turn on or off, or **Remove**. Use **Check for updates** to see new versions.
-- **Other installed plugins** — install any Claude Code plugin by ID, in the form `name@marketplace` (for example `slack@claude-plugins-official`).
-- **Marketplaces** — add a marketplace by `owner/repo` or git URL, and **Pull latest** to refresh it.
+- **James plugins**: plugins made for James, from [yahoai/james-releases](https://github.com/yahoai/james-releases). **Install**, **Update**, turn on or off, or **Remove**. Use **Check for updates** to see new versions.
+- **Other installed plugins**: install any Claude Code plugin by ID, in the form `name@marketplace` (for example `slack@claude-plugins-official`).
+- **Marketplaces**: add a marketplace by `owner/repo` or git URL, and **Pull latest** to refresh it.
 
 Plugins installed here are the same ones the `claude` CLI uses.
 
@@ -29,7 +29,7 @@ Choose the scope at the top: **Global (~/.claude)** for every project, or a spec
 
 ## Skills, commands, agents and hooks
 
-These tabs list what's installed globally and in each project — from `.claude/skills/`, `.claude/commands/`, `.claude/agents/` and `settings.json`.
+These tabs list what's installed globally and in each project, from `.claude/skills/`, `.claude/commands/`, `.claude/agents/` and `settings.json`.
 
 ## Presets
 

@@ -5,7 +5,7 @@ order: 9
 
 # What Claude Can Do in James
 
-Every session in James gives Claude a set of extra tools that plain Claude Code doesn't have. You don't need to set anything up — just ask in plain words.
+Every session in James gives Claude a set of extra tools that plain Claude Code doesn't have. You don't need to set anything up. Just ask in plain words.
 
 Tools that change things outside the conversation (starting processes, opening sessions, creating jobs) ask for your approval like any other tool, unless your permission mode allows them. Reading and writing your notes, todos and plans never asks.
 
@@ -13,25 +13,25 @@ Tools that change things outside the conversation (starting processes, opening s
 
 Claude keeps a goal list with steps and a progress log pinned above the message box, so you can see where a long task stands at a glance.
 
-When the context fills up, Claude can write a **handoff** — what was done, decisions, key files and the next step — and continue in a fresh session without losing the thread.
+When the context fills up, Claude can write a **handoff** (what was done, decisions, key files and the next step) and continue in a fresh session without losing the thread.
 
 > "Context is getting full. Write a handoff and continue in a new session."
 
-## Ask you for things — Todos
+## Ask you for things: Todos
 
 When Claude needs a decision, a review or something only you can do, it puts a todo in your inbox instead of waiting in a session you might not be watching. It can attach files and notes, reply on the todo's thread, and report back when it finishes work you asked for.
 
-Claude can never approve, dismiss or delete a todo, and can't close a **Decide** todo — those are yours. See [Todos](./todos.md).
+Claude can never approve, dismiss or delete a todo, and can't close a **Decide** todo. Those are yours. See [Todos](./todos.md).
 
 > "Put the React upgrade decision in my inbox with the options and your recommendation."
 
-## Schedule work — Jobs
+## Schedule work: Jobs
 
 Claude can create, edit, pause and run scheduled jobs: a prompt that runs on its own as a new session, daily, weekly or once. It can also look through past runs and their results. See [Jobs & Runs](./jobs.md).
 
 > "Every weekday at 9am, summarize yesterday's commits and save it to the Vault."
 
-## Remember things — Vault
+## Remember things: Vault
 
 Claude can save, search, read and update notes in your [Vault](./vault.md), a knowledge base shared by every session and project. Notes are never deleted, only archived, and every change is versioned.
 
@@ -51,13 +51,13 @@ Claude can save how your project runs (web, API, Storybook…), start it in its 
 
 ## Use your terminals
 
-Claude can read the output of terminals you have open, and — only when you ask — open a new terminal or type into one (including keys like Ctrl+C). Typing into a terminal **always** asks for approval, whatever your permission mode.
+Claude can read the output of terminals you have open, and, only when you ask, open a new terminal or type into one (including keys like Ctrl+C). Typing into a terminal **always** asks for approval, whatever your permission mode.
 
 > "Open a terminal and start a Python REPL."
 
 ## Browse the web (desktop app)
 
-In the desktop app, Claude gets its own hidden browser. It can open pages (including your local dev server), click, type, scroll, read the page and take screenshots — for example to check your UI at phone width. It only shows the window if you ask to see it, and asks before opening more than one.
+In the desktop app, Claude gets its own hidden browser. It can open pages (including your local dev server), click, type, scroll, read the page and take screenshots, for example to check your UI at phone width. It only shows the window if you ask to see it, and asks before opening more than one.
 
 > "Open localhost:5173, log in with the test account, and screenshot the dashboard at phone width."
 
@@ -69,7 +69,7 @@ Claude can open an HTML or Markdown plan or mockup from your project in a tab ne
 
 ## Organize projects and sessions
 
-Claude can create workspaces, add a folder as a project, and open a new session in another project — optionally with a first message.
+Claude can create workspaces, add a folder as a project, and open a new session in another project, optionally with a first message.
 
 > "Create ~/code/new-app, add it to my Work workspace, and open a session there to scaffold a Vite app."
 

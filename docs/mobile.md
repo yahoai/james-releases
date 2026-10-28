@@ -7,11 +7,11 @@ order: 12
 
 James runs on your Mac, but you can use it from your phone, a tablet or another computer. Your sessions keep running on the Mac while you're away.
 
-The safe way to do this is [Tailscale](https://tailscale.com) — a free private network between your own devices. James never opens itself to the internet or your Wi-Fi.
+The safe way to do this is [Tailscale](https://tailscale.com), a free private network between your own devices. James never opens itself to the internet or your Wi-Fi.
 
 ## How James protects itself
 
-Out of the box, James only accepts connections from the Mac it runs on. When you reach it through Tailscale, it also accepts requests from **devices signed in to your own Tailscale account** — no password or token needed. Everything else is refused:
+Out of the box, James only accepts connections from the Mac it runs on. When you reach it through Tailscale, it also accepts requests from **devices signed in to your own Tailscale account**, with no password or token needed. Everything else is refused:
 
 - Devices on other people's Tailscale accounts, or devices shared into your tailnet
 - Tagged devices (servers you tagged in the Tailscale admin console)
@@ -42,7 +42,7 @@ Out of the box, James only accepts connections from the Mac it runs on. When you
    https://my-mac.tail1234.ts.net:31010 (tailnet only)
    ```
 
-You can also copy the address from the James status bar (bottom right) — click the copy icon next to it.
+You can also copy the address from the James status bar (bottom right) by clicking the copy icon next to it.
 
 To stop sharing, run `tailscale serve --https=31010 off`.
 
@@ -50,7 +50,7 @@ To stop sharing, run `tailscale serve --https=31010 off`.
 
 1. Make sure Tailscale is connected on the phone.
 2. Open the `https://…ts.net:31010` address in Safari or Chrome.
-3. That's it — you're in, with all your sessions.
+3. That's it. You're in, with all your sessions.
 
 ### Install it as an app
 
@@ -85,15 +85,15 @@ If you run James on more than one Mac, they can find each other over Tailscale.
 
 Once connected you can:
 
-- **Start a session on another Mac** — pick it under **Machine** in the new session dialog (⌘K). The session runs on that Mac and streams to the one in front of you.
-- **Move a session to another Mac** — session ⋮ menu → **Continue on another machine…**. James writes a handoff and opens a draft on the other Mac; you send it when you're ready.
-- **Send a file or snippet** — **Send to peer…** on a message, code block or file. It lands in the other Mac's **Inbox** (status bar). Nothing runs automatically.
+- **Start a session on another Mac**: pick it under **Machine** in the new session dialog (⌘K). The session runs on that Mac and streams to the one in front of you.
+- **Move a session to another Mac**: session ⋮ menu → **Continue on another machine…**. James writes a handoff and opens a draft on the other Mac; you send it when you're ready.
+- **Send a file or snippet**: **Send to peer…** on a message, code block or file. It lands in the other Mac's **Inbox** (status bar). Nothing runs automatically.
 
 Update James to the same version on every Mac. A peer running a different version shows a warning badge.
 
 ## Troubleshooting
 
-- **"Forbidden: requests are only accepted from this machine or your own Tailscale devices"** — the device isn't signed in to the same Tailscale account as the Mac, or it's a tagged device.
-- **Page won't load** — check Tailscale is connected on both devices, and that `tailscale serve status` on the Mac still shows the 31010 entry. James must be running on the Mac.
-- **"Microphone unavailable — An HTTPS connection is required"** — you opened an `http://` address. Use the `https://…ts.net` address.
-- **Settings → Peers says "Not installed" / "Not running"** — install the Tailscale app on the Mac and sign in.
+- **"Forbidden: requests are only accepted from this machine or your own Tailscale devices"**: the device isn't signed in to the same Tailscale account as the Mac, or it's a tagged device.
+- **Page won't load**: check Tailscale is connected on both devices, and that `tailscale serve status` on the Mac still shows the 31010 entry. James must be running on the Mac.
+- **"Microphone unavailable"**: you opened an `http://` address. Use the `https://…ts.net` address.
+- **Settings → Peers says "Not installed" / "Not running"**: install the Tailscale app on the Mac and sign in.
