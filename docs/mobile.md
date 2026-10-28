@@ -81,6 +81,8 @@ If you run James on more than one Mac, they can find each other over Tailscale.
 2. Run the `tailscale serve` command above on **each** Mac.
 3. Open **Settings → Peers**. Other Macs appear under **Peers** within a minute. If one doesn't, add it under **Add peer manually** with its Tailscale IP (`100.x.y.z`) and port `31010`.
 
+![Settings → Peers showing this Mac and two other Macs on the same Tailscale account](./images/peers.png)
+
 Once connected you can:
 
 - **Start a session on another Mac** — pick it under **Machine** in the new session dialog (⌘K). The session runs on that Mac and streams to the one in front of you.

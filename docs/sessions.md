@@ -52,7 +52,10 @@ Hover over one of your messages and choose **Revert to here** to put the files C
 
 ## Goals
 
-For bigger tasks, Claude keeps a goal list pinned above the message box: **Goals n/m** and the current step. Expand it to see every goal, its steps and a progress log. To have Claude always plan this way, turn on **Settings → Goals → Always plan with goals and todos**.
+For bigger tasks, Claude keeps a goal list pinned above the message box: **Goals n/m** and the current step.
+
+![The goals panel expanded above the message box, with goals, steps and a progress log](./images/goals.png)
+ Expand it to see every goal, its steps and a progress log. To have Claude always plan this way, turn on **Settings → Goals → Always plan with goals and todos**.
 
 ## Continue in a new session
 
@@ -65,13 +68,16 @@ Tick **Close this session and continue in its tab** to replace the current one.
 
 ## Terminals, launches and background tasks
 
+See [Terminals & Launches](./terminals.md). In short:
+
+
 - **⌘T** opens a terminal in the project; **⌘J** shows or hides the bottom bar with your terminals and launches.
 - **Launch…** (project menu or bottom bar) starts your dev server or any saved run command, detects its local URL, and lets you restart or stop it. Claude can set these up for you.
 - Long builds and test runs that Claude starts in the background appear under **Background tasks** in the header.
 
 ## Usage
 
-The **5h** and **7d** chips in the header show how much of your Claude plan's limits you've used. Click them for **Account & Usage**, including which sessions used it. The ☰ menu → **Usage Analytics** shows cost over time.
+The **5h** and **7d** chips in the header show how much of your Claude plan's limits you've used. Click them for **Account & Usage**. See [Usage](./usage.md) for details.
 
 ## Keyboard shortcuts
 

@@ -15,6 +15,8 @@ The Vault is a folder of Markdown (and HTML) files at `~/James/vault`. You can o
 
 It's also a git repository. James commits changes automatically a couple of minutes after they're made, and keeps the last 20 versions of each note. To back it up, set a remote in **Settings → Vault → Backup**; James pushes to it daily.
 
+![The Vault: folders on the left, a note in the middle, outline and backlinks on the right](./images/vault.png)
+
 ## Browsing
 
 - **Tree** and **Recent** views on the left, with your Vault and a read-only **Project docs** section (the docs folders of your projects).

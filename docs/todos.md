@@ -9,6 +9,8 @@ Todos are your inbox: the things Claude (or a scheduled job) needs **from you**.
 
 Open it from the **Todos** icon in the sidebar, or the **Todos** tab on mobile. Todos waiting on you also appear on **Home** under **Needs you**.
 
+![The Todos inbox with Decide, Review and Do lanes, and a decision todo open](./images/todos.png)
+
 ## Kinds of todos
 
 Every todo has an intent:

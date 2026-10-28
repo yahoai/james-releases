@@ -49,7 +49,7 @@ Check in on a long task from your phone or another computer. Your sessions keep 
 
 ### Know where your usage goes
 
-See your 5-hour and weekly limits at a glance, plus which sessions are using them.
+See your 5-hour and weekly limits at a glance, plus what's using them up.
 
 ### Let it work while you sleep
 
@@ -67,19 +67,22 @@ Add plugins, MCP servers, skills and agents from Settings — no config files to
 
 James updates itself automatically.
 
-**Requirements:** macOS 11 or later on Apple Silicon, [Node.js](https://nodejs.org), and the [Claude Code](https://docs.anthropic.com/claude-code) CLI.
+**Requirements:** macOS 11 or later on Apple Silicon, and the [Claude Code](https://docs.anthropic.com/claude-code) CLI.
 Builds are signed and notarized by Apple.
 
 ## Guides
 
 - [Getting Started](docs/getting-started.md)
 - [Sessions & Chat](docs/sessions.md) — split view, permission modes, goals, handoff
+- [Projects & Git](docs/projects.md) · [Terminals & Launches](docs/terminals.md)
 - [Todos](docs/todos.md) — your inbox of things Claude needs from you
 - [Jobs & Runs](docs/jobs.md) — prompts that run on a schedule
 - [Vault](docs/vault.md) — a knowledge base shared by every session
 - [Work Items](docs/workflow.md) — feature and bug specs Claude keeps up to date
 - [What Claude Can Do in James](docs/claude-tools.md) — the extra tools Claude gets in every session
+- [Plugins & Extensions](docs/plugins.md) · [Usage](docs/usage.md)
 - [Remote & Mobile](docs/mobile.md) — use James from your phone or another Mac with Tailscale
+- [Troubleshooting](docs/troubleshooting.md)
 
 ## Plugins
 

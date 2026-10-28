@@ -9,6 +9,8 @@ A **job** is a prompt that James runs on a schedule — "every weekday at 9am, s
 
 Open it from the **Jobs** icon in the sidebar, or **More → Jobs** on mobile. James must be running for jobs to run.
 
+![A job's page with its next run, success rate, cost and run history](./images/jobs.png)
+
 ## Create a job
 
 The easiest way is **Create with AI**: pick a project and describe what you want. Claude asks what it needs and sets the job up for you.
@@ -34,6 +36,8 @@ To fill in the form yourself, use **⋯ → Create manually…**:
   - **Allow everything**
 
 Under **Advanced** you can choose what happens if the previous run is still going, whether to catch up on a run missed while James was closed, skip runs when your 5-hour usage is above a limit, and set a timeout (default 60 minutes).
+
+![The job editor: schedule, output, model, limits and approval settings](./images/job-editor.png)
 
 Use **Test run now** to try the job before saving.
 
@@ -74,4 +78,4 @@ You can manage jobs from any session:
 
 ## Routines plugin
 
-The `james-routines` plugin lets you keep job definitions as files in your repo (`.workflow/routines/`) and register them as James jobs. See [Plugins](https://github.com/yahoai/james-releases#plugins).
+The `james-routines` plugin lets you keep job definitions as files in your repo (`.workflow/routines/`) and register them as James jobs. See [Plugins & Extensions](./plugins.md#james-routines).

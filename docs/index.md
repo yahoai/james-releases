@@ -21,20 +21,17 @@ James is a home for Claude Code: run sessions across all your projects side by s
 
 - [Getting Started](./getting-started.md) — install, requirements, first session
 - [Sessions & Chat](./sessions.md) — sessions, split view, permission modes, goals, handoff
+- [Projects & Git](./projects.md) — workspaces, project menu, files, git
+- [Terminals & Launches](./terminals.md) — terminals, dev servers, background tasks
 - [Todos](./todos.md) — your inbox of things Claude needs from you
 - [Jobs & Runs](./jobs.md) — prompts that run on a schedule
 - [Vault](./vault.md) — a knowledge base shared by every session
 - [Work Items](./workflow.md) — feature and bug specs Claude keeps up to date
 - [What Claude Can Do in James](./claude-tools.md) — the extra tools Claude gets in every session
+- [Plugins & Extensions](./plugins.md) — plugins, MCP servers, skills, presets
+- [Usage](./usage.md) — plan limits, cost, context
 - [Remote & Mobile](./mobile.md) — use James from your phone or another Mac with Tailscale
-
-<!-- Not written yet (add to the list above when filled in):
-- [Projects & Git](./projects.md) — workspaces, project menu, file tree, git
-- [Terminals & Dev Server](./terminals.md) — terminals, dev server, background tasks
-- [Plugins](./plugins.md) — plugins, MCP servers, skills, agents
-- [Usage](./usage.md) — token usage, cost, account limits
 - [Troubleshooting](./troubleshooting.md) — common problems and fixes
--->
 
 ## Need help?
 
